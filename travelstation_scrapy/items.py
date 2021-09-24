@@ -9,4 +9,7 @@ import scrapy
 class TravelstationScrapyItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
+    name = scrapy.Field()
+    roma = scrapy.Field()
+    company = scrapy.Field()
     pass
